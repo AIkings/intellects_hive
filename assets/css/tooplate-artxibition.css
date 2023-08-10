@@ -121,7 +121,7 @@ global styles
 html,
 body {
   background: #fff;
-  background-image: url(https://img.freepik.com/free-vector/realistic-technology-particle-background_23-2148409680.jpg?w=1060&t=st=1691609881~exp=1691610481~hmac=9465bffe758f86afe916870eaabe98450b6046134c5c36ff337e04312a234277);
+  background-color: #d7dadc;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -600,7 +600,7 @@ banner
 */
 
 .main-banner {
-  background-image: url(https://images.pexels.com/photos/4009599/pexels-photo-4009599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(../images/bgg.jpeg.jpg);
   padding: 270px 0px 210px 0px;
   position: relative;
 }
@@ -768,7 +768,19 @@ Amazing Venues
   overflow: hidden;
 }
 
-
+#about-us{
+  padding-bottom: 90px;
+    font-size: 15px;
+  font-weight: bold;
+  color: white;
+  width: 70%;
+}
+#about-us1{
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  width: 70%;
+}
 /*
 ---------------------------------------------
 Venues & Tickets
@@ -1051,7 +1063,7 @@ footer .under-footer {
 }
 
 footer p.copyright {
-  text-align: right;
+  text-align: center;
 }
 
 .sub-footer {
