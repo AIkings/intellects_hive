@@ -66,7 +66,7 @@ html[xmlns] .clearfix {
 }
 
 ul, li {
-  padding: 0;
+  padding: 10px;
   margin: 0;
   list-style: none;
 }
@@ -746,7 +746,11 @@ Amazing Venues
   color: #2a2a2a;
   margin-right: 5px;
 }
-
+.hero-about{
+  position: absolute;
+  top: 120px;
+  
+}
 .amazing-venues .right-content h5 {
   font-size: 22px;
   font-weight: 800;
@@ -769,15 +773,22 @@ Amazing Venues
 }
 
 #about-us{
-  padding-bottom: 90px;
+  position: relative;
+  top: 30px;
     font-size: 15px;
   font-weight: bold;
   color: white;
   width: 70%;
 }
+.register-button{
+  top: 130px;
+  position: relative;
+} 
 #about-us1{
   font-size: 15px;
+  position: relative;
   font-weight: bold;
+  top: 60px;
   color: white;
   width: 70%;
 }
@@ -890,6 +901,7 @@ Coming Events
 
 .coming-events {
   background-color: #656c74;
+  background-image: url("../images/bgimg.jpeg");
   padding: 120px 0px;
   position: relative;
 }
