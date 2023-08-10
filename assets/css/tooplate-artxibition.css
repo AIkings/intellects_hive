@@ -69,6 +69,7 @@ ul, li {
   padding: 10px;
   margin: 0;
   list-style: none;
+  font-weight: bold;
 }
 
 header, nav, section, article, aside, footer, hgroup {
@@ -121,7 +122,7 @@ global styles
 html,
 body {
   background: #fff;
-  background-color: #d7dadc;
+  background-color: #808487;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -275,6 +276,8 @@ header
 .header-area .main-nav {
   min-height: 80px;
   background: transparent;
+  object-fit: cover;
+
 }
 
 .header-area .main-nav .logo {
@@ -467,6 +470,7 @@ header
 
 .header-area.header-sticky {
   min-height: 80px;
+  background-image: url(../images/hive2.jpg);
 }
 
 .header-area.header-sticky .nav {
@@ -646,8 +650,10 @@ banner
   width: 100%;
   top: 0;
   padding: 12px 0px;
+  text-shadow: 0 0 10px rgba(157, 106, 190, 0.8);
   height: 100px;
-  background-color: rgba(250,250,250,0.3);
+  background-color: rgba(183, 125, 125, 0.3);
+  text-align: center;
 }
 
 .main-banner .counter-content li {
@@ -656,13 +662,13 @@ banner
   list-style-type: none;
   font-weight: 300;;
   text-transform: capitalize;
-  color: #fff;
+  color: #c29b9b;
   min-width: 15%;
 }
 
 .main-banner .counter-content li span {
   display: block;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 900;
   margin-top: -10px;
 }
@@ -935,6 +941,7 @@ Coming Events
 .event-item .down-content {
   background-color: #fff;
   padding: 30px;
+  background-image: url(../images/hive2.jpg);
 }
 
 .event-item .down-content h4 {
@@ -947,7 +954,6 @@ Coming Events
 .event-item .down-content ul li {
   font-size: 14px;
   color: #2a2a2a;
-  font-weight: 300;
   margin-bottom: 15px;;
 }
 
@@ -1032,6 +1038,7 @@ Footer
 footer {
   padding-top: 60px;
   margin-bottom: 25px;
+  background-image: url(../images/hive2.jpg);
 }
 
 footer h4 {
