@@ -42,6 +42,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   padding: 0;
   border: 0;
   outline: 0;
+  color: white;
 }
 
 .clearfix:after {
@@ -123,7 +124,10 @@ html,
 body {
   background: #fff;
   background-color: #808487;
+  background-image: url(../images/mapwal2.jpg);
   font-family: 'Poppins', sans-serif;
+   
+  
 }
 
 ::selection {
@@ -206,6 +210,8 @@ body {
   font-weight: 500;
   text-transform: capitalize;
   transition: all .3s;
+  position: relative;
+  float: left;
 }
 
 .main-dark-button a:hover {
@@ -936,12 +942,14 @@ Coming Events
 .event-item .thumb img {
   width: 100%;
   overflow: hidden;
+  height: 200px;
 }
 
 .event-item .down-content {
   background-color: #fff;
   padding: 30px;
   background-image: url(../images/hive2.jpg);
+  
 }
 
 .event-item .down-content h4 {
@@ -1587,8 +1595,28 @@ Shows Events Page
 ---------------------------------------------
 */
 
+.page-heading-show-events{
+background-image: url(../images/dazz3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 110px 0px;
+  text-align: center;
+
+}
+#event-titles{
+color: blue;
+font-weight: 100%;
+font-size: medium;
+}
 .page-heading-shows-events {
-  background-image: url(../images/shows_events_bg.jpg);
+  background-image: url(../images/mapathon2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 110px 0px;
+  text-align: center;
+}
+.page-heading-sho-events {
+  background-image: url(../images/RSCOVER.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 110px 0px;
