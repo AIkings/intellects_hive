@@ -69,8 +69,10 @@ html[xmlns] .clearfix {
 ul, li {
   padding: 10px;
   margin: 0;
-  list-style: none;
-  font-weight: bold;
+  /* list-style: none; */
+  /* font-weight: bold; */
+  PADDING-TOP: 5px;
+  padding-top: 5pxx;
 }
 
 header, nav, section, article, aside, footer, hgroup {
@@ -913,7 +915,7 @@ Coming Events
 
 .coming-events {
   background-color: #656c74;
-  background-image: url("../images/bgimg.jpeg");
+  background-image: url("../images/dark.jpg");
   padding: 120px 0px;
   position: relative;
 }
@@ -1596,20 +1598,24 @@ Shows Events Page
 */
 
 .page-heading-show-events{
-background-image: url(../images/dazz3.jpg);
+background-image: url(../images/dazz-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 110px 0px;
   text-align: center;
 
 }
+
+.page-heading-show-events {}
+
+.page-heading-show-events {}
 #event-titles{
 color: blue;
 font-weight: 100%;
 font-size: medium;
 }
 .page-heading-shows-events {
-  background-image: url(../images/mapathon2.jpg);
+  background-image: url(../images/map-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 110px 0px;
